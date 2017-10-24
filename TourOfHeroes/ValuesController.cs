@@ -15,7 +15,7 @@ namespace TourOfHeroes
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "lalue", "lelue" };
+            return new string[] { "lalue", "lelue", "asd" };
         }
 
     }
