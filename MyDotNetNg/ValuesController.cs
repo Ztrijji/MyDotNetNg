@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,7 +15,8 @@ namespace MyDotNetNg
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] {"My", "First", "Dot", "Net", "Ng", "App"};
+            return new string[] {"My", "First", "Live", "Update", "Ng", "App"};
         }
+
     }
 }
